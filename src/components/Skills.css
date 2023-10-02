@@ -1,0 +1,33 @@
+/* Skills Styles */
+.skills {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skills p {
+  font-size: 18px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .skills h2 {
+    font-size: 20px;
+  }
+
+  .skills p {
+    font-size: 16px;
+  }
+}

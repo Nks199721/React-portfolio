@@ -1,0 +1,29 @@
+/* Project Styles */
+.project {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 18px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .project h2 {
+    font-size: 20px;
+  }
+
+  .project p {
+    font-size: 16px;
+  }
+}
